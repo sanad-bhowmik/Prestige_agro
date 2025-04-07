@@ -15,6 +15,17 @@
 
 <body class="antialiased">
     @include('partials.nav')
+    <div class="font font-Poppins mb-14 mt-10 mb-10">
+        <div class="flex flex-col items-center relative">
+            <h1 class="absolute text-6xl md:text-9xl font-semibold text-gray-600 opacity-5  ">
+                Prestige
+            </h1>
+            <div class="relative flex flex-col items-center mt-5 md:mt-10">
+                <h1 class="text-2xl md:text-4xl lg:text-6xl font-semibold text-gray-600">Contact</h1>
+                <div class="md:w-28 w-14 md:h-[4px] h-[2px] bg-green-400 "></div>
+            </div>
+        </div>
+    </div>
     <form action="https://fabform.io/f/{form-id}" method="post">
         <section class="text-gray-600 body-font relative">
             <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">

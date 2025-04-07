@@ -34,8 +34,10 @@
 
         .swiper-slide img {
             width: 100%;
-            height: 200px; /* Fixed height for images */
-            object-fit: cover; /* Ensure the image covers the space without distortion */
+            height: 200px;
+            /* Fixed height for images */
+            object-fit: cover;
+            /* Ensure the image covers the space without distortion */
             border-radius: 8px;
         }
 
@@ -43,7 +45,8 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 280px; /* Fixed height for content area */
+            height: 280px;
+            /* Fixed height for content area */
         }
 
         .swiper-pagination-bullet {
@@ -59,7 +62,7 @@
 <body class="bg-gray-100">
 
     <!-- Swiper Container -->
-    <div class="swiper-container max-w-7xl mx-auto container">
+    <div class="swiper-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="font font-Poppins mb-14">
             <div class="flex flex-col items-center relative">
                 <!-- Background Text  -->
