@@ -20,15 +20,15 @@
 
             <!-- Desktop Navigation -->
             <div class="hidden md:flex md:items-center md:space-x-6">
-                <a href="/" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
-                    Home
+                <a href="/bd" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
+                    হোম
                     <span class="absolute bottom-0 left-0 h-0.5 bg-green-500 w-0 group-hover:w-full transition-all duration-300"></span>
                 </a>
 
                 <!-- Products Dropdown -->
                 <div class="relative group" id="productsDropdown">
                     <button class="flex items-center px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300">
-                        <span>Products</span>
+                        <span>পণ্য</span>
                         <svg class="ml-1 h-4 w-4 transform transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -38,44 +38,44 @@
                     <div id="productsDropdownPanel" class="absolute z-20 -ml-4 mt-2 transform px-2 w-56 max-w-md sm:px-0 origin-top transition-all duration-200 ease-out opacity-0 scale-95 invisible group-hover:opacity-100 group-hover:scale-100 group-hover:visible">
                         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div class="relative grid gap-1 bg-white dark:bg-gray-800 p-2">
-                                <a href="/insecticide" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
+                                <a href="/insecticidebd" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
                                     <div class="flex-shrink-0 h-5 w-5 text-green-500">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                                         </svg>
                                     </div>
                                     <div class="ml-3">
-                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">Insecticide</p>
+                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">পোকামাকড়নাশক</p>
                                     </div>
                                 </a>
-                                <a href="/fungicide" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
+                                <a href="/fungicidebd" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
                                     <div class="flex-shrink-0 h-5 w-5 text-green-500">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                         </svg>
                                     </div>
                                     <div class="ml-3">
-                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">Fungicide</p>
+                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">ছত্রাকনাশক</p>
                                     </div>
                                 </a>
-                                <a href="/herbicide" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
+                                <a href="/herbicidebd" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
                                     <div class="flex-shrink-0 h-5 w-5 text-green-500">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                                         </svg>
                                     </div>
                                     <div class="ml-3">
-                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">Herbicide</p>
+                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">গাছনাশক</p>
                                     </div>
                                 </a>
-                                <a href="/micronutrients" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
+                                <a href="/micronutrientsbd" class="flex items-start px-3 py-2 rounded-lg hover:bg-green-50 dark:hover:bg-gray-700 transition-all duration-150 transform hover:translate-x-1">
                                     <div class="flex-shrink-0 h-5 w-5 text-green-500">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                                         </svg>
                                     </div>
                                     <div class="ml-3">
-                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">Micronutrients Fertilizer</p>
+                                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">মাইক্রোনিউট্রিয়েন্টস ফার্টিলাইজার</p>
                                     </div>
                                 </a>
                             </div>
@@ -83,18 +83,19 @@
                     </div>
                 </div>
 
-                <a href="/salesteam" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
-                    Sales Officer
+                <a href="/salesteambd" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
+                    সেলস অফিসার
                     <span class="absolute bottom-0 left-0 h-0.5 bg-green-500 w-0 group-hover:w-full transition-all duration-300"></span>
                 </a>
-                <a href="/team" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
-                    Our Team
+                <a href="/teambd" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
+                    আমাদের টিম
                     <span class="absolute bottom-0 left-0 h-0.5 bg-green-500 w-0 group-hover:w-full transition-all duration-300"></span>
                 </a>
-                <a href="/contact" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
-                    Contact Us
+                <a href="/contactbd" class="relative px-1 pt-1 pb-2 text-sm font-medium text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400 transition-colors duration-300 group">
+                    যোগাযোগ করুন
                     <span class="absolute bottom-0 left-0 h-0.5 bg-green-500 w-0 group-hover:w-full transition-all duration-300"></span>
                 </a>
+
             </div>
 
             <!-- Right side buttons -->
@@ -130,27 +131,27 @@
     <!-- Mobile menu -->
     <div id="mobileMenu" class="hidden md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
         <div class="px-2 pt-2 pb-3 space-y-1">
-            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Home</a>
+            <a href="/bd" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">হোম</a>
 
             <!-- Mobile Products Dropdown -->
             <div class="relative">
                 <button id="mobileProductsButton" class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">
-                    <span>Products</span>
+                    <span>প্রোডাক্টস</span>
                     <svg class="ml-1 h-4 w-4 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
                 <div id="mobileProductsDropdown" class="hidden pl-4 mt-1 space-y-1">
-                    <a href="/insecticide" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Insecticide</a>
-                    <a href="/fungicide" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Fungicide</a>
-                    <a href="/herbicide" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Herbicide</a>
-                    <a href="/micronutrients" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Micronutrients Fertilizer</a>
+                    <a href="/insecticide" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">পোকামাকড়নাশক</a>
+                    <a href="/fungicide" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">ছত্রাকনাশক</a>
+                    <a href="/herbicide" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">গাছনাশক</a>
+                    <a href="/micronutrients" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">মাইক্রোনিউট্রিয়েন্টস ফার্টিলাইজার</a>
                 </div>
             </div>
 
-            <a href="/salesteam" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Sales Officer</a>
-            <a href="/team" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Our Team</a>
-            <a href="/contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">Contact Us</a>
+            <a href="/salesteambd" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">সেলস অফিসার</a>
+            <a href="/teambd" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">  আমাদের টিম</a>
+            <a href="/contactbd" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-gray-800 transition-colors duration-150">যোগাযোগ করুন</a>
 
             <!-- Mobile Language Dropdown -->
             <div class="relative px-3 py-2">

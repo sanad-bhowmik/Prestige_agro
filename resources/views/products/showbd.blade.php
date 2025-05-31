@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $product->name }} - Product Details</title>
+    <title>{{ $product->name }} - পণ্যের বিস্তারিত</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="{{ asset('img/PADLogo.png') }}">
@@ -62,13 +62,14 @@
 </head>
 
 <body class="bg-gray-50">
-    @include('partials.nav')
+    @include('partials.navbd')
     <div class="container mx-auto px-4 py-12">
-        <!-- Breadcrumbs -->
+
+        <!-- ব্রেডক্রাম্ব -->
         <nav class="flex mb-6" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-3">
                 <li class="inline-flex items-center">
-                    <a href="/" class="text-gray-700 hover:text-primary">Home</a>
+                    <a href="/bd" class="text-gray-700 hover:text-primary">হোম</a>
                 </li>
                 <li>
                     <div class="flex items-center">
@@ -85,6 +86,7 @@
             </ol>
         </nav>
 
+        <!-- পণ্যের বিভাগ -->
         <!-- Product Section -->
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 transition-all duration-300 hover:shadow-2xl">
             <div class="md:flex">
@@ -224,9 +226,11 @@
                 }, 300);
             }
         </script> <!-- Related Products -->
+
+        <!-- সম্পর্কিত পণ্য -->
         @if($relatedProducts->count() > 0)
         <div class="mt-12">
-            <h2 class="text-2xl font-bold mb-6">Related Products</h2>
+            <h2 class="text-2xl font-bold mb-6">সম্পর্কিত পণ্যসমূহ</h2>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 @foreach($relatedProducts as $product)
@@ -235,7 +239,6 @@
                         <a href="{{ route('product.details', $product->id) }}">
                             <img src="{{ asset('storage/products/'.$product->image) }}" alt="{{ $product->name }}" class="w-full h-48 object-cover">
                         </a>
-
                     </div>
                     <div class="p-4">
                         <a href="{{ route('product.details', $product->id) }}" class="font-medium text-gray-900 hover:text-primary block mb-1">{{ $product->name }}</a>
@@ -250,10 +253,10 @@
                                     @endif
                                     @endfor
                             </div>
-                            <span class="text-gray-500 text-xs">({{ $product->review_count }})</span>
+                            <span class="text-gray-500 text-xs">({{ $product->review_count }} রিভিউ)</span>
                         </div>
                         <button class="mt-3 w-full bg-primary hover:bg-primary-dark text-white py-2 px-4 rounded text-sm">
-                            Add to Cart
+                            কার্টে যোগ করুন
                         </button>
                     </div>
                 </div>
@@ -262,14 +265,16 @@
         </div>
         @endif
     </div>
+
     @include('partials.footer')
+
     <script>
-        // Change main product image when thumbnail is clicked
+        // থাম্বনেইলে ক্লিক করলে প্রধান ছবিটি পরিবর্তন হবে
         function changeMainImage(element) {
             document.getElementById('mainImage').src = element.src;
         }
 
-        // Quantity controls
+        // পরিমাণ নিয়ন্ত্রণ
         function increaseQuantity() {
             const input = document.getElementById('quantity');
             const max = parseInt(input.max);
@@ -285,15 +290,24 @@
             }
         }
 
-        // Tab switching
+        // ট্যাব পরিবর্তন
         function changeTab(tabId) {
-            // Hide all tab contents
+            // সব ট্যাব কন্টেন্ট লুকানো হবে
             document.querySelectorAll('.tab-content').forEach(content => {
                 content.classList.remove('active');
             });
 
-            // Remove active class from all tab buttons
+            // সব ট্যাব বাটন থেকে active ক্লাস সরানো হবে
             document.querySelectorAll('.tab-button').forEach(button => {
                 button.classList.remove('active', 'border-primary', 'text-primary');
                 button.classList.add('border-transparent');
             });
+
+            // নির্দিষ্ট ট্যাবটি অ্যাক্টিভ করা হবে
+            document.getElementById(tabId).classList.add('active');
+            document.querySelector(`[data-tab="${tabId}"]`).classList.add('active', 'border-primary', 'text-primary');
+        }
+    </script>
+</body>
+
+</html>

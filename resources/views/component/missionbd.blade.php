@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Mission</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>আমাদের লক্ষ্য</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -61,7 +61,7 @@
                     </h1>
                     <div class="relative flex flex-col items-center mt-8 md:mt-12">
                         <!-- Foreground Text -->
-                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 title-shadow">Our Mission</h1>
+                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 title-shadow">আমাদের লক্ষ্য</h1>
                         <!-- Custom Border -->
                         <div class="w-20 md:w-28 h-1 md:h-1.5 bg-green-500 mt-4 mb-6 rounded-full"></div>
                     </div>
@@ -69,7 +69,7 @@
             </div>
 
             <p class="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed text-justify sm:text-center px-4">
-                We constantly improve what is essential to farmers' progress. Our mission is to provide high-quality agricultural products and services that meet international standards, empowering farmers across the country. Through continuous efforts, we aim to increase land productivity by offering personalized guidance and focusing on value creation for both clients and the company.
+                আমরা কৃষকদের অগ্রগতির জন্য যা অপরিহার্য তা অবিচ্ছিন্নভাবে উন্নত করি। আমাদের লক্ষ্য হলো আন্তর্জাতিক মানসম্পন্ন উচ্চ-মানের কৃষি পণ্য ও সেবা প্রদান করা, যা দেশের কৃষকদের ক্ষমতায়ন করবে। অবিরত প্রচেষ্টার মাধ্যমে, আমরা ব্যক্তিগতকৃত নির্দেশনা ও মূল্য সৃষ্টির ওপর গুরুত্ব দিয়ে জমির উৎপাদনশীলতা বৃদ্ধি করতে চাই।
             </p>
 
             <div class="mt-12 sm:mt-16 mission-values flex flex-wrap justify-center gap-6 sm:gap-8 lg:gap-12 px-4">
@@ -78,33 +78,32 @@
                     <div class="w-16 h-16 rounded-full bg-green-500 flex items-center justify-center mx-auto shadow-lg mb-4 transition-all duration-300 hover:scale-110">
                         <i class="fas fa-seedling text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Sustainability</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Promoting long-term farming practices for a greener future.</p>
+                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">টেকসইতা</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">সবুজ ভবিষ্যতের জন্য দীর্ঘমেয়াদী কৃষিকাজ পদ্ধতির প্রচার।</p>
                 </div>
 
                 <div class="mission-card bg-white p-6 rounded-xl shadow-md w-full sm:w-[280px] flex-1 max-w-[280px]">
                     <div class="w-16 h-16 rounded-full bg-blue-500 flex items-center justify-center mx-auto shadow-lg mb-4 transition-all duration-300 hover:scale-110">
                         <i class="fas fa-hands-helping text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Community</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Building relationships with farmers to support their growth.
-</p>
+                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">সম্প্রদায়</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">কৃষকদের সাথে সম্পর্ক গড়ে তোলা এবং তাদের উন্নয়নে সহায়তা করা।</p>
                 </div>
 
                 <div class="mission-card bg-white p-6 rounded-xl shadow-md w-full sm:w-[280px] flex-1 max-w-[280px]">
                     <div class="w-16 h-16 rounded-full bg-yellow-500 flex items-center justify-center mx-auto shadow-lg mb-4 transition-all duration-300 hover:scale-110">
                         <i class="fas fa-lightbulb text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Innovation</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Driving technological advancement in agriculture.</p>
+                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">উদ্ভাবন</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">কৃষিতে প্রযুক্তিগত অগ্রগতির চালিকাশক্তি।</p>
                 </div>
 
                 <div class="mission-card bg-white p-6 rounded-xl shadow-md w-full sm:w-[280px] flex-1 max-w-[280px]">
                     <div class="w-16 h-16 rounded-full bg-purple-500 flex items-center justify-center mx-auto shadow-lg mb-4 transition-all duration-300 hover:scale-110">
                         <i class="fas fa-medal text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Quality</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Delivering products that meet international standards</p>
+                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">গুণগত মান</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">আন্তর্জাতিক মান পূরণ করে এমন পণ্য সরবরাহ করা।</p>
                 </div>
             </div>
         </div>

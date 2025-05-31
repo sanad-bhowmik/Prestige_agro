@@ -84,7 +84,7 @@
             <table class="min-w-full text-sm text-left text-gray-500">
                 <thead class="bg-gray-100 text-xs text-gray-700 uppercase">
                     <tr>
-                        <th class="px-6 py-4 table-header" >SL</th>
+                        <th class="px-6 py-4 table-header">SL</th>
                         <th class="px-6 py-4 table-header">Officer Name</th>
                         <th class="px-6 py-4 table-header">Designation</th>
                         <th class="px-6 py-4 table-header">Region</th>

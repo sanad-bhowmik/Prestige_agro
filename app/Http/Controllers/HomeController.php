@@ -10,12 +10,24 @@ class HomeController extends Controller
     {
         return view('component.team');
     }
+    public function teambd()
+    {
+        return view('component.teambd');
+    }
     public function salesteam()
     {
         return view('component.salesteam');
     }
+    public function salesteambd()
+    {
+        return view('component.salesteambd');
+    }
     public function product()
     {
         return view('component.product');
+    }
+    public function productbd()
+    {
+        return view('component.productbd');
     }
 }
