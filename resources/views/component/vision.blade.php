@@ -28,7 +28,7 @@
                 </div>
             </div>
             <!-- Vision Description -->
-            <p class="text-lg sm:text-xl md:text-2xl leading-relaxed mx-auto max-w-3xl"style="text-align: justify;">
+            <p class="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed text-justify sm:text-center px-4">
                 The Company's vision is the ambitious dream to become the leader of the agribusiness in South Asia,
                 not only in terms of market size or turnover but also in terms of the number of satisfied employees and
                 customers. To be a trusted & leading player with a realistic approach in agro inputs, services, and agro

@@ -23,7 +23,6 @@
 <body class="antialiased bg-gray-50">
     @include('partials.nav')
 
-
     <section id="our-team" class="bg-gray-100 py-32">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-8 text-fuchsia-600">Meet Our Team</h2>
@@ -31,29 +30,30 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Team Member 1 -->
                 <div class="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-                    <img id="team-img-1"src="{{ asset('img/Chairman sir.jpg') }}" alt="Team Member 1" class="w-full rounded-full mb-4">
+                    <img src="{{ asset('img/Chairman sir.jpg') }}" alt="Team Member 1"
+                         class="w-48 h-56 object-cover rounded-full mb-4 mx-auto">
                     <h3 class="text-xl font-semibold mb-2">AFM Mahabubul Hasan</h3>
                     <p class="text-gray-700">Chairman</p>
                 </div>
 
                 <!-- Team Member 2 -->
                 <div class="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-                    <img src="{{ asset('img/emam.jpg') }}" alt="Team Member 2" class="w-full rounded-full mb-4">
+                    <img src="{{ asset('img/emam.jpg') }}" alt="Team Member 2"
+                         class="w-48 h-56 object-cover rounded-full mb-4 mx-auto">
                     <h3 class="text-xl font-semibold mb-2">Md. Emam Hossain</h3>
                     <p class="text-gray-700">Managing Director</p>
                 </div>
 
                 <!-- Team Member 3 -->
                 <div class="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-                    <img src="{{ asset('img/rajon sir new.jpg') }}" alt="Team Member 3" class="w-full rounded-full mb-4">
+                    <img src="{{ asset('img/rajon sir new.jpg') }}" alt="Team Member 3"
+                         class="w-48 h-56 object-cover rounded-full mb-4 mx-auto">
                     <h3 class="text-xl font-semibold mb-2">Md. Reshadul Islam Khan Rajon</h3>
                     <p class="text-gray-700">Director</p>
                 </div>
             </div>
         </div>
-
     </section>
-
 
     @include('partials.footer')
 
@@ -61,11 +61,3 @@
 </body>
 
 </html>
-<style>
-    @media (min-width: 1024px) {
-        #team-img-1 {
-            height: 71vh;
-            object-fit: cover;
-        }
-    }
-</style>

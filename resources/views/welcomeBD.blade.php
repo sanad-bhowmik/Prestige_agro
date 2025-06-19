@@ -25,11 +25,10 @@
     @include('partials.navbd')
     @include('partials.sliderbd')
     @include('component.aboutbd')
-    @include('component.paralaxbd')
+    <!-- @include('component.paralaxbd') -->
     @include('component.missionbd')
     @include('component.visionbd')
     @include('component.productSlider')
-    @include('partials.callNowbd')
     @include('partials.footer')
 </body>
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
